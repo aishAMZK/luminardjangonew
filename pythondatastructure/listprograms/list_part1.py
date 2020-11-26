@@ -27,6 +27,6 @@ lst.insert(3,"perl")#inserting an object in to a specific position
 print(lst)
 
 marks=list()
-#insertsome values
+#insert some values
 #perform slicing
 #update a object
