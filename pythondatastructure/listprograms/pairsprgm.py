@@ -3,6 +3,7 @@ lst.sort()
 #[1,2,3,4,6,7]
 # l         u
 #6
+#lst[l]+lst[u]==6  (1+7=8)
 low=0
 upp=len(lst)-1
 element=int(input("enter element"))

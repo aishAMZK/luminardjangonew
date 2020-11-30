@@ -17,8 +17,10 @@ for employer in employees:
 
 qasum=0
 dsum=0
-for employer in employees:
-    if(employees[2]=="qa"):
-        qasum+=employees[3]
-    elif (employees[2]=="developer"):
-        dsum+=employees[3]
+for employee in employees:
+    if(employee[2]=="qa"):
+        qasum+=employee[3]
+    elif (employee[2]=="developer"):
+        dsum+=employee[3]
+print(qa)
+print(developer)
