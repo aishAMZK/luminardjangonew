@@ -18,3 +18,6 @@ for employee in employees:
         print(employee)
 
 #print all employee details whose experience > 9 years
+for employee in employees:
+    if((employee[4]-employee[3])>9):
+        print
