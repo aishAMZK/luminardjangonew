@@ -23,3 +23,4 @@ print(lowest,dict[lowest])
 #find the states depends on confirmed_cases
 srt=sorted(dict,key=dict.get,reverse=True)
 print("sorted",srt)
+
