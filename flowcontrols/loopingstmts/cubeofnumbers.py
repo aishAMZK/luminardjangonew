@@ -1,4 +1,4 @@
-#armstrong number
+#armstrong number-1**3+2**3+3**3
 
 number=int(input("enter the number"))#123
 result=0
