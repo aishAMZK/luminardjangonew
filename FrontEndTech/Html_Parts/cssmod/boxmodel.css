@@ -1,0 +1,23 @@
+#top{
+    border-style: solid;
+    border-color: brown;
+    background-color: darkgoldenrod;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 20px;
+    /*padding-left: 10%; */
+    text-align: center;
+}
+
+#bottom{
+    border-style: solid;
+    border-color: brown;
+    background-color: darkgoldenrod;
+    width: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+    text-align: center;
+
+
+
+}

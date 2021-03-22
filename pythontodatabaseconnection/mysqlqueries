@@ -1,0 +1,33 @@
+sql>show databases;
+lists all databases
+
+sql>create database cms;
+
+sql>use cms;
+
+sql>show tables;
+
+>students(rol,name,course,age)
+>create table students(rol varchar(10),name varchar(10),course varchar(20),age int);
+>desc students;
+
+keys>primary key,foreign key
+primary key-unique identification
+foreign key-referencial purpose
+
+>insert into students(rol,name,course,age)values('100','ajay','mca',25);
+
+>select * from students;
+
+>select name from students;
+
+#listing names of mca students
+>select name from students where course='mca';
+
+#100 rol-fetching
+>select * from students where rol='100';
+
+#update ajay age as 26
+>update students set age=26 where rol='100';
+
+>delete from students where rol='104';

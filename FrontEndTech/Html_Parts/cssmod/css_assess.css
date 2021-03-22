@@ -1,0 +1,21 @@
+body{
+    background-color: ghostwhite;
+}
+
+
+h1{
+    text-align: center;
+}
+.global{
+    background-color: mediumorchid;
+    width: 40%;
+}
+.glo{
+    background-color:olive;
+    width: 40%;
+}
+#tact{
+    border-style: solid;
+    border-color:brown;
+    border-width: 3px;
+}

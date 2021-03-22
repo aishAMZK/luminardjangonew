@@ -1,0 +1,61 @@
+/*
+
+tagname or id or class{
+
+    property1:value;
+    property2:value;
+}
+
+*/
+body{
+    background-color: rgb(162, 168, 50);
+}
+h1{
+
+    text-align: center;
+    color: brown;
+}
+/* id selector is # */
+#ind{
+    background-color: #325ba8;
+    background-image: url(indialogo.png);
+    width: 40%;
+    border-style: solid;
+    border-color: cornsilk;
+    border-width: 3px;
+}
+#inli{
+    color: black
+    ;
+}
+#aus{
+    background-color: yellow;
+    background-image: url(auslogo.png);
+    width: 40%;
+    border-style: solid;
+    border-color: cornsilk;
+    border-width: 3px;
+}
+#eng{
+    background-color: pink;
+    background-image: url(englogo.png);
+    width: 40%;
+    border-style: solid;
+    border-color: cornsilk;
+    border-width: 3px;
+}
+#alia{
+    color: black;
+}
+#eland{
+    color: black;
+}
+.global{
+    background-color:crimson;
+    background-image: url();
+    width: 40%;
+    border-style: solid;
+    border-color: cornsilk;
+    border-width: 3px;
+
+}

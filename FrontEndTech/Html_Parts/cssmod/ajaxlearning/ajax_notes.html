@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ajax</h1>
+</body>
+<script>
+    var request=new XMLHttpRequest()
+    request.open('get'.'https://jsonplaceholder.typicode.com/posts/1')
+    request.send()
+    request.onreadystatechange=()=>{
+        if(request.readyState==4){
+            if((request.status>199)&(request.status<300)){
+                // alert(request.responseText)
+                // var data=JSON.parse(request.responseText)
+                console.log(data)
+                
+            }
+            else{
+                alert("failed")
+            }
+        }
+    }
+
+</script>
+</html>
